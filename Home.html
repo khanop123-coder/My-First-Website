@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elieah | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #121212;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    /* ✅ PURE LINE NAVIGATION BAR */
+    nav {
+      background-color: #1e1e1e;
+      padding: 15px 40px;
+      display: flex;
+      align-items: center;
+      gap: 50px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+      white-space: nowrap;
+      overflow-x: auto;
+    }
+
+    nav img {
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+    }
+
+    nav a {
+      color: #4CAF50;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 22px; /* 👉 BADA TEXT */
+      margin-right: 25px;
+      transition: color 0.3s ease, transform 0.2s ease;
+    }
+
+    nav a:hover {
+      color: #81c784;
+      transform: scale(1.1);
+    }
+
+    /* HEADER */
+    header {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .intro {
+      max-width: 800px;
+      margin: auto;
+      background: #1a1a1a;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    }
+
+    .intro h1 {
+      font-size: 32px;
+      color: #4CAF50;
+      margin-bottom: 15px;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      background: #1a1a1a;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    }
+
+    section h2 {
+      color: #4CAF50;
+      font-size: 26px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      padding: 10px 0;
+      border-bottom: 1px solid #333;
+    }
+
+    li:last-child {
+      border-bottom: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background-color: #1e1e1e;
+      margin-top: 40px;
+      color: #aaa;
+      font-size: 14px;
+    }
+
+    footer p {
+      margin: 8px 0;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+      }
+
+      nav a {
+        font-size: 18px;
+        margin-right: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ✅ CLEAN LINE NAV -->
+  <nav>
+    <img src="pic.jpg" alt="Elieah Logo">
+    <a href="Home.html">Home</a>
+    <a href="About.html">About</a>
+    <a href="Contact.html">Contact</a>
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <div class="intro">
+      <h1>Welcome to Elieah's Portfolio</h1>
+      <p>
+        I'm Elieah — a student passionate about technology and self-learning.<br>
+        I build mobile-friendly websites using just my phone 📱<br>
+        Exploring the world of web development and trading 🌐📊<br>
+        This is my journey toward becoming a full-time developer and entrepreneur. 🚀
+      </p>
+    </div>
+  </header>
+
+  <!-- Skills -->
+  <section>
+    <h2>My Skills</h2>
+    <ul>
+      <li>✅ Mobile Web Development</li>
+      <li>✅ HTML & CSS (on smartphone)</li>
+      <li>✅ JavaScript Basics (in progress)</li>
+      <li>✅ Trading Knowledge & Practice</li>
+      <li>✅ Self Learning & Goal Setting</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section>
+    <h2>My Projects</h2>
+    <ul>
+      <li>🌐 Personal Portfolio Website</li>
+      <li>📱 Mobile Layout Practice Pages</li>
+      <li>🧮 Mini Calculator using HTML/CSS</li>
+      <li>📝 Personal Notes App (Coming Soon)</li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Elieah | All Rights Reserved</p>
+    <p>Connect: YouTube | Instagram | GitHub (Coming Soon)</p>
+  </footer>
+
+</body>
+</html>

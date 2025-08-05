@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | Elieah</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #ffffff;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: #1e1e1e;
+      padding: 15px 30px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    }
+
+    .nav-container {
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-container img {
+      width: 60px;
+      border-radius: 50%;
+    }
+
+    .menu {
+      display: flex;
+      gap: 45px;
+    }
+
+    .menu a {
+      color: #4CAF50;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 22px;
+      transition: color 0.3s, transform 0.2s;
+    }
+
+    .menu a:hover {
+      color: #81c784;
+      transform: scale(1.1);
+    }
+
+    .contact {
+      max-width: 800px;
+      margin: 40px auto;
+      background: #1a1a1a;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+      text-align: center;
+    }
+
+    .contact h1 {
+      color: #4CAF50;
+      margin-bottom: 25px;
+    }
+
+    .contact p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin-top: 10px;
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 12px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .contact a:hover {
+      background-color: #81c784;
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background-color: #1e1e1e;
+      margin-top: 40px;
+      color: #aaa;
+      font-size: 14px;
+    }
+
+    footer p {
+      margin: 8px 0;
+    }
+
+    @media(max-width: 600px) {
+      .nav-container {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      .menu {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ✅ Navigation -->
+  <nav>
+    <div class="nav-container">
+      <img src="pic.jpg" alt="Elieah Logo">
+      <div class="menu">
+        <a href="Home.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ✅ Contact Section -->
+  <div class="contact">
+    <h1>Contact Me</h1>
+    <p>If you'd like to get in touch, feel free to message me anytime.</p>
+    <p><strong>WhatsApp:</strong></p>
+    <a href="https://wa.me/9203368862100" target="_blank">Message on WhatsApp</a>
+  </div>
+
+  <!-- ✅ Footer -->
+  <footer>
+    <p>© 2025 Elieah | All Rights Reserved</p>
+    <p>Connect: YouTube | Instagram | GitHub (Coming Soon)</p>
+  </footer>
+
+</body>
+</html>
